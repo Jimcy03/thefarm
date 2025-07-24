@@ -16,13 +16,31 @@ public class trigoVida : MonoBehaviour
 
     private IEnumerator CambiarEstado()
     {
-        while (estadoTrigo < 4){
-            animator.SetInteger("estado", estadoTrigo);
+        while (estadoTrigo < 4)
+        {
+            // Verifica si el parámetro existe
+            if (ParametroExiste("estado"))
+            {
+                animator.SetInteger("estado", estadoTrigo);
+            }
+            else
+            {
+                Debug.LogError("Parámetro 'estado' no encontrado!");
+            }
+
             estadoTrigo++;
             yield return new WaitForSeconds(tiempoEspera);
         }
     }
-    // Update is called once per frame
+
+    private bool ParametroExiste(string nombre)
+    {
+        foreach (var param in animator.parameters)
+        {
+            if (param.name == nombre) return true;
+        }
+        return false;
+    }
     void Update()
     {
         

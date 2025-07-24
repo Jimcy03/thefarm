@@ -5,6 +5,18 @@
     {
       "AbsoluteMoniker": "D:0:0:{E7772F00-629A-64DB-C0BA-30D6B94CA90C}|Assembly-CSharp.csproj|c:\\users\\user\\documents\\ucic\\motores\\practicas\\thefarm\\lagranja\\assets\\scripts\\trigovida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E7772F00-629A-64DB-C0BA-30D6B94CA90C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\trigovida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7772F00-629A-64DB-C0BA-30D6B94CA90C}|Assembly-CSharp.csproj|c:\\users\\user\\documents\\ucic\\motores\\practicas\\thefarm\\lagranja\\assets\\scripts\\ponedora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7772F00-629A-64DB-C0BA-30D6B94CA90C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ponedora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7772F00-629A-64DB-C0BA-30D6B94CA90C}|Assembly-CSharp.csproj|c:\\users\\user\\documents\\ucic\\motores\\practicas\\thefarm\\lagranja\\assets\\scripts\\movimientojugador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7772F00-629A-64DB-C0BA-30D6B94CA90C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\movimientojugador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7772F00-629A-64DB-C0BA-30D6B94CA90C}|Assembly-CSharp.csproj|c:\\users\\user\\documents\\ucic\\motores\\practicas\\thefarm\\lagranja\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7772F00-629A-64DB-C0BA-30D6B94CA90C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +26,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Ponedora.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\UCIC\\Motores\\Practicas\\thefarm\\LaGranja\\Assets\\Scripts\\Ponedora.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Ponedora.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\UCIC\\Motores\\Practicas\\thefarm\\LaGranja\\Assets\\Scripts\\Ponedora.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Ponedora.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T20:31:55.954Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -24,9 +49,35 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\trigoVida.cs",
               "ToolTip": "C:\\Users\\USER\\Documents\\UCIC\\Motores\\Practicas\\thefarm\\LaGranja\\Assets\\Scripts\\trigoVida.cs",
               "RelativeToolTip": "Assets\\Scripts\\trigoVida.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAwwB0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-14T17:24:36.223Z",
+              "WhenOpened": "2025-07-23T20:02:36.201Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MovimientoJugador.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\UCIC\\Motores\\Practicas\\thefarm\\LaGranja\\Assets\\Scripts\\MovimientoJugador.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MovimientoJugador.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\UCIC\\Motores\\Practicas\\thefarm\\LaGranja\\Assets\\Scripts\\MovimientoJugador.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MovimientoJugador.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAwwDIAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T19:31:48.818Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\UCIC\\Motores\\Practicas\\thefarm\\LaGranja\\Assets\\Scripts\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\UCIC\\Motores\\Practicas\\thefarm\\LaGranja\\Assets\\Scripts\\GameManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T19:28:04.673Z",
               "EditorCaption": ""
             }
           ]
