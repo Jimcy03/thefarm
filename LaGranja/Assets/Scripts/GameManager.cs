@@ -3,7 +3,11 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     public static GameManager instancia;
-    public int huevo = 0;
+    public static int contadorHuevos = 0; // Variable estática para acceso global
+    public int huevo;  // Variable de instancia
+
+    // Nueva propiedad estática para acceso global
+    public static int ContadorHuevos => instancia.huevo;
 
     void Awake()
     {
@@ -15,7 +19,6 @@ public class GameManager : MonoBehaviour
         {
             Destroy(gameObject);
         }
-
         DontDestroyOnLoad(gameObject);
     }
 
@@ -25,4 +28,3 @@ public class GameManager : MonoBehaviour
         Debug.Log(huevo);
     }
 }
-

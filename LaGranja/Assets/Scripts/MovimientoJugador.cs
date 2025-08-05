@@ -10,15 +10,14 @@ public class MovimientoJugador : MonoBehaviour
     public Vector2 entrada; // Entrada del jugador para el movimiento
     public Animator animator;
     public GameObject preFabTrigo; // Prefab del trigo que se sembrará
+    public GameObject preFabTomate; // Nuevo prefab para tomate
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
     }
 
-    // Update is called once per frame
     void Update()
     {
         rb.linearVelocity = entrada * velocidad;
@@ -47,15 +46,29 @@ public class MovimientoJugador : MonoBehaviour
         animator.SetBool("estaCaminando", entrada != Vector2.zero);
     }
 
-    public void SembrarTrigo(InputAction.CallbackContext contexto){
-        if (contexto.started){
-            Instantiate(preFabTrigo ,transform.position, Quaternion.identity);
+    public void SembrarTrigo(InputAction.CallbackContext contexto)
+    {
+        if (contexto.started)
+        {
+            Instantiate(preFabTrigo, transform.position, Quaternion.identity);
         }
     }
-        private void OnTrigeerEnter2D(Collider2D colision){
-        if(colision.CompareTag("nido")){
+
+    // Nuevo método para sembrar tomate
+    public void SembrarTomate(InputAction.CallbackContext contexto)
+    {
+        if (contexto.started)
+        {
+            Instantiate(preFabTomate, transform.position, Quaternion.identity);
+        }
+    }
+
+    // Corrección: OnTriggerEnter2D (nombre correcto)
+    private void OnTriggerEnter2D(Collider2D colision)
+    {
+        if (colision.CompareTag("nido"))
+        {
             Destroy(colision.gameObject);
-            Debug.Log("Nido destruido");
             GameManager.instancia.SumarHuevo();
         }
     }

@@ -62,10 +62,16 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\MovimientoJugador.cs" />
+    <Compile Include="Assets\Scripts\InventarioUI.cs" />
     <Compile Include="Assets\Scripts\trigoVida.cs" />
+    <Compile Include="Assets\Scripts\ContadorHuevos.cs" />
     <Compile Include="Assets\Scripts\GallinaMovimiento.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\Ponedora.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\UI\InventarioStyleuss.uss" />
+    <None Include="Assets\UI\InventarioUI.uxml" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

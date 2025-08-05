@@ -1,0 +1,8 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/InventarioStyleuss.uss?fileID=7433441132597879392&amp;guid=11d90b9cd44217f4684301e6272bbb1a&amp;type=3#InventarioStyleuss" />
+    <ui:VisualElement name="barra-recursos" style="flex-grow: 1; flex-direction: row;">
+        <ui:VisualElement name="recuersoHuevos" style="flex-grow: 1; flex-direction: row; flex-basis: initial;">
+            <ui:VisualElement name="labelHuevos" style="flex-grow: 1; width: 24px; height: 24px;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
