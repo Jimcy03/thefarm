@@ -1,25 +1,7 @@
 fileFormatVersion: 2
-guid: 734ec7c2cacc0524e8d4d68380d6a5cf
+guid: ec93b34672119594abe71a3ce92ef9d1
 TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: 8560451000399327191
-    second: Free Chicken Sprites_0
-  - first:
-      213: -172105496523427829
-    second: Free Chicken Sprites_1
-  - first:
-      213: -1036979789468306671
-    second: Free Chicken Sprites_2
-  - first:
-      213: -7729539223606550471
-    second: Free Chicken Sprites_3
-  - first:
-      213: 6835891653889965918
-    second: Free Chicken Sprites_4
-  - first:
-      213: -853786803854351760
-    second: Free Chicken Sprites_5
+  internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -57,7 +39,7 @@ TextureImporter:
     mipBias: 0
     wrapU: 1
     wrapV: 1
-    wrapW: 1
+    wrapW: 0
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -66,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 16
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -112,7 +94,20 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: WebGL
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -141,10 +136,10 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 7df60f364d4dcc670800000000000000
-      internalID: 8560451000399327191
+      spriteID: bad3772f8d7916e4da909e66fe7a39f5
+      internalID: 1019036033
       vertices: []
       indices: 
       edges: []
@@ -163,10 +158,10 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: b0034d776fe8c9df0800000000000000
-      internalID: -172105496523427829
+      spriteID: 0b7a55aa5b3aca44f8353596d041792a
+      internalID: -180492229
       vertices: []
       indices: 
       edges: []
@@ -185,10 +180,10 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 1137b792068eb91f0800000000000000
-      internalID: -1036979789468306671
+      spriteID: bd25ab42f32a94f48af23f57cd30b4bb
+      internalID: 1330603316
       vertices: []
       indices: 
       edges: []
@@ -207,10 +202,10 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 930ab7b67092bb490800000000000000
-      internalID: -7729539223606550471
+      spriteID: ed31a07fea143c647969be90a71bc4c9
+      internalID: -57142487
       vertices: []
       indices: 
       edges: []
@@ -229,10 +224,10 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: e5f3b29bd37fdde50800000000000000
-      internalID: 6835891653889965918
+      spriteID: 8e21cb2e7cfbb5442b2d62310911ce82
+      internalID: 602536237
       vertices: []
       indices: 
       edges: []
@@ -251,10 +246,10 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 072685aec6db624f0800000000000000
-      internalID: -853786803854351760
+      spriteID: 354de8e168a60524c8937e973e01aaee
+      internalID: 1870624734
       vertices: []
       indices: 
       edges: []
@@ -263,7 +258,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: a65e3215d27d7d74080e2e3812005ec7
+    spriteID: 8847ac1b240a33a4986d91c6a1db3d43
     internalID: 0
     vertices: []
     indices: 
@@ -273,12 +268,12 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Free Chicken Sprites_0: 8560451000399327191
-      Free Chicken Sprites_1: -172105496523427829
-      Free Chicken Sprites_2: -1036979789468306671
-      Free Chicken Sprites_3: -7729539223606550471
-      Free Chicken Sprites_4: 6835891653889965918
-      Free Chicken Sprites_5: -853786803854351760
+      Free Chicken Sprites_0: 1019036033
+      Free Chicken Sprites_1: -180492229
+      Free Chicken Sprites_2: 1330603316
+      Free Chicken Sprites_3: -57142487
+      Free Chicken Sprites_4: 602536237
+      Free Chicken Sprites_5: 1870624734
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

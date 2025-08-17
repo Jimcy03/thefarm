@@ -1,8 +1,9 @@
 <ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
-    <Style src="project://database/Assets/UI/InventarioStyleuss.uss?fileID=7433441132597879392&amp;guid=11d90b9cd44217f4684301e6272bbb1a&amp;type=3#InventarioStyleuss" />
+    <Style src="project://database/Assets/UI/InventarioStyle.uss?fileID=7433441132597879392&amp;guid=9d518f4615decf5488c769f15e740afd&amp;type=3#InventarioStyle" />
     <ui:VisualElement name="barra-recursos" style="flex-grow: 1; flex-direction: row;">
-        <ui:VisualElement name="recuersoHuevos" style="flex-grow: 1; flex-direction: row; flex-basis: initial;">
-            <ui:VisualElement name="labelHuevos" style="flex-grow: 1; width: 24px; height: 24px;" />
+        <ui:VisualElement name="recursosHuevo" style="flex-grow: initial; flex-direction: row; flex-basis: auto;">
+            <ui:VisualElement name="iconoHuevos" style="flex-grow: 1; width: 32px; height: 32px; background-image: url(&quot;project://database/Assets/Sprites/Egg.png?fileID=2800000&amp;guid=e55345e6bb42ca6439282e418242c2d2&amp;type=3#Egg&quot;);" />
+            <ui:Label text="0" name="labelHuevos" style="height: 24px; width: 107px; -unity-font-style: bold; font-size: 22px; -unity-text-align: middle-left;" />
         </ui:VisualElement>
     </ui:VisualElement>
 </ui:UXML>

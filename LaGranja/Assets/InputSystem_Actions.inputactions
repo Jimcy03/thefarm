@@ -15,18 +15,18 @@
                     "initialStateCheck": true
                 },
                 {
-                    "name": "SembrarTrigo",
+                    "name": "sembrarT",
                     "type": "Button",
-                    "id": "bb8a2fc2-e90c-4220-941a-20c8f341747f",
+                    "id": "c9c421da-b4ae-432a-81b4-8ab9e76f0faa",
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
                 },
                 {
-                    "name": "SiembreJitomate",
+                    "name": "sembrarJ",
                     "type": "Button",
-                    "id": "46dd4e7f-cd4b-4a9c-bd5c-3c895df59398",
+                    "id": "22138c86-ca83-4c24-97a1-2ae5357e48fa",
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
@@ -168,23 +168,23 @@
                 },
                 {
                     "name": "",
-                    "id": "85616523-96b1-4f7b-afdf-291ded4c0682",
+                    "id": "51eea593-b0fb-4a9c-afb0-43262d03f168",
                     "path": "<Keyboard>/c",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "SembrarTrigo",
+                    "action": "sembrarT",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
                 {
                     "name": "",
-                    "id": "93e90d68-8708-4857-9217-ce0001d9fe28",
+                    "id": "b9f80304-c488-4fe7-ad48-3ef1d74df304",
                     "path": "<Keyboard>/b",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "SiembreJitomate",
+                    "action": "sembrarJ",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

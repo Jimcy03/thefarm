@@ -1,17 +1,14 @@
 using UnityEngine;
 
-
 public class Ponedora : MonoBehaviour
 {
-    public GameObject huevo;
-    public float intervalo = 5f; // Intervalo en segundos para poner un huevo
-
+    public GameObject Huevo;
+    public float intervalo = 10f;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        //invocar ponerhuevo()
-        InvokeRepeating(nameof(PonerHuevo), intervalo, intervalo);
+        InvokeRepeating(nameof(ponerHuevo), intervalo, intervalo);
     }
 
     // Update is called once per frame
@@ -20,8 +17,8 @@ public class Ponedora : MonoBehaviour
         
     }
 
-    public void PonerHuevo()
+    public void ponerHuevo ()
     {
-       Instantiate(huevo, transform.position, Quaternion.identity);
+        Instantiate(Huevo, transform.position, Quaternion.identity);
     }
 }
